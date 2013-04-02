@@ -9,7 +9,7 @@ log '==================== REJECTED SINCE YOU CALLED FROM TIMs PHONE ============
        hangup
 else
 log '!!!!!!!!!!!!!!!!!!!!!! DID NOT reject you TIM at 1717 !!!!!!!!!!!!!!!!!!!!'
-    #say "else branch else branch else branch"
+    say "else branch else branch else branch"
     message "You did not call from Tims phone. . . You did not call from Tims phone", {
        :to => "+14255801717", 
        :network => 'PSTN'}

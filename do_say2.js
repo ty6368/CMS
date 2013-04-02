@@ -1,13 +1,8 @@
-ask("What's your four or five digit pin? Press pound when finished", {
-    choices:"[4-5 DIGITS]",
-    terminator:"#",
-    timeout:15.0,
-    mode:"dtmf",
-    interdigitTimeout: 5,
-    onChoice: function(event) {
-        say("On Choice!");
-    },
-    onBadChoice: function(event) {
-        say("On Bad Choice!");
+var callerID = currentCall.callerID;
+log("Incoming call from: " + callerID);
+if (callerID == "4075550100") 
+    {
+    reject();
     }
-});
+else
+    say("You passed the test!");

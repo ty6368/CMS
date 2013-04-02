@@ -1,3 +1,2 @@
-answer();
 wait(7000);
-transfer("+14155551212");
+transfer("+14255801717);

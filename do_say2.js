@@ -1,1 +1,1 @@
-say("Howdy yall. http://www.phono.com/audio/troporocks.mp3", {voice:"kate"});
+say("Howdy yall. http://www.phono.com/audio/troporocks.mp3");

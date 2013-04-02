@@ -5,5 +5,10 @@ log '==================== REJECTED YOU TIM ===================='
     reject
 else
 log '!!!!!!!!!!!!!!!!!!!!!! DID NOT reject you TIM at 1717 !!!!!!!!!!!!!!!!!!!!'
- say "You passed the test!"
+
+message "Received office voice mail.", {
+    :to => "+14257850159", 
+    :network => 'SMS'}
+
+
 end

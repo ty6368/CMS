@@ -1,3 +1,4 @@
-answer();
-wait(7000);
-transfer("+14255801717");
+message("Received office voice mail", {
+    to:"+14255801717",
+    network:"SMS"
+});

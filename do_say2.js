@@ -1,1 +1,4 @@
-say("Howdy yall. http://www.phono.com/audio/troporocks.mp3");
+answer();
+wait(3000);
+say("Thanks for calling, please wait while you're being transferred");
+transfer("+14155551212");

@@ -1,2 +1,7 @@
-log "++++++++++++++++++++++++++ Call was from: " + $currentCall.callerID
-say "http://www.phono.com/audio/troporocks.mp3"
+callerID = $currentCall.callerID
+log 'Incoming call from: ' + callerID
+if callerID == '4075550100'
+    reject
+else
+    say "You passed the test!"
+end
